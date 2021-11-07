@@ -12,6 +12,7 @@ import translate from "../assets/translate.png";
 import business from "../assets/business.png";
 import news from "../assets/news.jpeg";
 
+// Gadget Data
 const gadgetData = [
   {
     id: 1,
@@ -71,6 +72,7 @@ const gadgetData = [
 ];
 
 const Navbar = () => {
+  // Toggle state to either open or close
   const [app, setApp] = useState(false);
   return (
     <div className="navbar">
@@ -80,7 +82,7 @@ const Navbar = () => {
         <span className="link">Gmail</span>
         <span className="link">Images</span>
         <span
-          onClick={() => setApp((previous) => !previous)}
+          onClick={() => setApp((previous) => !previous)} //Toggle App Icon
           className="link iconHover"
         >
           <Apps />
@@ -90,6 +92,7 @@ const Navbar = () => {
         </span>
         <div className={app ? "appClick" : "appClick hidden"}>
           <div className="gadgets">
+            {/* Map through and get each gadget data */}
             {gadgetData.map(({ id, image, name }) => (
               <div key={id} className="gadgetContainer">
                 <div className="gadget">
