@@ -10,7 +10,7 @@ const Footer = () => {
           <span>Our Search works</span>
         </div>
         <div className="middleLink">
-          <span>Carbon neutal since 2007</span>
+          <span>SideHustle internship 2021</span>
         </div>
         <div className="thirdLinks">
           <span>Privacy</span>
