@@ -79,7 +79,7 @@ const Navbar = () => {
       <span className="link">About</span>
       <span className="link">Store</span>
       <div className="navRight">
-        <span className="link">Gmail</span>
+        <span className="link">mail</span>
         <span className="link">Images</span>
         <span
           onClick={() => setApp((previous) => !previous)} //Toggle App Icon
