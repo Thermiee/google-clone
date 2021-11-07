@@ -2,6 +2,7 @@ import { Search, Mic } from "@material-ui/icons";
 import Privacy from "../assets/privacy.png";
 
 const Input = ({ setSearch }) => {
+  // Use setSearch function to get the value of search
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
