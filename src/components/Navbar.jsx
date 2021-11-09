@@ -11,13 +11,23 @@ import calendar from "../assets/calendar.png";
 import translate from "../assets/translate.png";
 import business from "../assets/business.png";
 import news from "../assets/news.jpeg";
+import ads from "../assets/ads-logo.png";
+import chat from "../assets/chat-logo.png";
+import podcast from "../assets/google-podcast-logo.png";
+import classroom from "../assets/google-classroom-logo.png";
+import forms from "../assets/google-forms.png";
+import meet from "../assets/google-meet-logo.png";
+import lens from "../assets/google-lens.png";
+import one from "../assets/one-logo.png";
+import travel from "../assets/travel-logo.png";
+import photo from "../assets/photo-logo.png";
 
 // Gadget Data
 const gadgetData = [
   {
     id: 1,
     image: user,
-    name: "Account",
+    name: "Arryn",
   },
   {
     id: 2,
@@ -69,6 +79,57 @@ const gadgetData = [
     image: news,
     name: "News",
   },
+  {
+    id: 12,
+    image: chat,
+    name: "Google Chat",
+  },
+  {
+    id: 13,
+    image: podcast,
+    name: "Podcast",
+  },
+  {
+    id: 14,
+    image: classroom,
+    name: "Google Classroom",
+  },
+  {
+    id: 15,
+    image: forms,
+    name: "Form",
+  },
+  {
+    id: 16,
+    image: meet,
+    name: "Google Meet",
+  },
+  {
+    id: 17,
+    image: lens,
+    name: "Google Lens",
+  },
+  {
+    id: 18,
+    image: one,
+    name: "Google One",
+  },
+  {
+    id: 19,
+    image: travel,
+    name: "Travel",
+  },
+  {
+    id: 20,
+    image: photo,
+    name: "Google Photo",
+  },
+  {
+    id: 21,
+    image: ads,
+    name: "Google Ads",
+  },
+  
 ];
 
 const Navbar = () => {

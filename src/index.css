@@ -117,6 +117,9 @@ span.link:first-of-type {
   grid-gap: 1rem;
   border-radius: 10px;
   background: white;
+  height: 330px;
+  overflow-y: scroll;
+
 }
 
 .gadgetContainer {
