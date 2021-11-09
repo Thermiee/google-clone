@@ -198,6 +198,7 @@ span.link:first-of-type {
   min-height: 92px;
   max-height: 290px;
   height: calc(100vh - 560px);
+  overflow: hidden;
 }
 
 .logo {
@@ -205,6 +206,7 @@ span.link:first-of-type {
   position: relative;
   /* height: 100%; */
   margin-top: auto;
+  overflow: hidden;
 }
 
 .logo.text {
@@ -212,6 +214,7 @@ span.link:first-of-type {
   font-size: 1.3rem;
   text-align: center;
   overflow-x: scroll;
+  overflow: hidden;
 }
 
 .logoImage {
